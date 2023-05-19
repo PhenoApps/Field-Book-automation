@@ -134,6 +134,7 @@ import kotlin.Pair;
 public class CollectActivity extends AppCompatActivity
         implements SensorEventListener, GPSTracker.GPSTrackerListener, UsbCameraInterface {
 
+    private int test = 42;
     public static final int REQUEST_FILE_EXPLORER_CODE = 1;
     public static final int BARCODE_COLLECT_CODE = 99;
     public static final int BARCODE_SEARCH_CODE = 98;
